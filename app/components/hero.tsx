@@ -1,50 +1,50 @@
 import React from "react";
 import Image from "next/image";
-import HeroImage from "@/public/hero image3.jpg";
+import HeroImage from "@/public/hero image 2.png";
 
 const Hero = () => {
   return (
-    <div className="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full md:h-auto h-screen ">
-      <div className="max-w-xl mx-auto lg:max-w-screen-xl">
-        <div className="mb-16 lg:max-w-lg lg:mb-0">
-          <div className="max-w-xl mb-6">
-            <div>
-              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                Brand new
-              </p>
-            </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{" "}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
-            </p>
-          </div>
-          <div className="flex items-center">
+    <div className="lg:flex bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-300 via-indigo-200 to-pink-300">
+      <div className="flex items-center justify-between w-full px-6 py-8 md:h-[42rem] md:w-1/2 ">
+        <div className="max-w-3xl bg-slate-50 rounded-2xl p-20 ">
+          <h2 className="text-4xl font-medium text-gray-800  md:text-8xl">
+            Build Your New{" "}
+            <span className="text-blue-600 dark:text-blue-400">Idea</span>
+          </h2>
+
+          <p className="mt-4 text-sm text-gray-800  md:text-xs">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+            commodi cum cupiditate ducimus, fugit harum id necessitatibus odio
+            quam quasi, quibusdam rem tempora voluptates.
+          </p>
+
+          <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
             <a
-              href="/"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              href="#"
+              className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-white transition-colors duration-300 transform bg-gray-900 rounded-md hover:bg-gray-700"
             >
-              Get started
+              Get Started
             </a>
+            {/* <a
+              href="#"
+              className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-gray-700 transition-colors duration-300 transform bg-gray-200 rounded-md lg:mx-4 hover:bg-gray-300"
+            >
+              Learn More
+            </a> */}
           </div>
         </div>
       </div>
-      <div className="flex justify-center md:h-full md:overflow-y-clip  lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-        <Image
-          src={HeroImage}
-          className="object-cover object-top w-4/5 md:w-full md:h-auto min-w-52 -mb-16 rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
-          height={1000}
-          width={1000}
-          alt=""
-        />
+
+      <div className="w-full h-72 lg:w-3/6 lg:h-auto ">
+        <div className="w-full h-full relative z-10">
+          <Image
+            src={HeroImage}
+            alt="Hero image"
+            layout="fill"
+            objectFit="contain"
+            className="rounded-xl z-20"
+          />
+        </div>
       </div>
     </div>
   );
