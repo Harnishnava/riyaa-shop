@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import Logo from "@/public/Riyaa logo1.3 (C).png";
+import Image from "next/image";
 
-export default () => {
+const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -33,12 +34,7 @@ export default () => {
       <div className="gap-x-14 items-center justify-between mx-auto flex">
         <div className="flex items-center ml-10 py-1">
           <a href="/">
-            <img
-              src="/Riyaa logo1.3 (C).png"
-              width={60}
-              height={60}
-              alt="Float UI logo"
-            />
+            <Image src={Logo} width={60} height={60} alt="Float UI logo" />
           </a>
         </div>
         <div className="flex gap-x-6 mt-6 md:flex space-y-0 md:mt-0 md:mr-10">
@@ -53,3 +49,4 @@ export default () => {
     </nav>
   );
 };
+export default Nav;
