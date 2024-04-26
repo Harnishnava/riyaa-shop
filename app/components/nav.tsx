@@ -23,7 +23,7 @@ const Nav = () => {
     <nav
       className={`${
         isScrolled
-          ? "bg-white backdrop-blur-md sticky top-0 md:text-sm mx-auto max-w-screen-sm border rounded-full mt-0 z-30 transition-all duration-200"
+          ? "bg-white/30 backdrop-blur-md sticky top-0 md:text-sm mx-auto max-w-screen-sm border rounded-full mt-0 z-30 transition-all duration-200"
           : ""
       }`}
       style={{
