@@ -24,7 +24,7 @@ const Nav = () => {
       className={`${
         isScrolled
           ? "bg-white/30 backdrop-blur-md sticky top-0 md:text-sm mx-auto max-w-screen-sm border rounded-full mt-0 z-30 transition-all duration-200"
-          : ""
+          : "bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-300 via-indigo-200 to-pink-300 text-gray-950"
       }`}
       style={{
         transitionProperty: "background-color", // Add transition to background-color
