@@ -7,7 +7,7 @@ import Hero from "@/public/backround (r).jpg";
 
 const inter = Sora({
   subsets: ["latin"],
-  weight: "400",
+  weight: "600",
 });
 
 export const metadata: Metadata = {
@@ -23,8 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-white">
-          <Nav />
+        <Nav />
+        <div className="bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-300 via-indigo-200 to-pink-300">
           {children}
         </div>
       </body>
