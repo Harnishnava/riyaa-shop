@@ -50,7 +50,7 @@ export default function Products() {
           <div className="h-1 w-20 bg-purple-800 rounded mb-2"></div>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-900">
             Discover the transformative power of natural ingredients with
-            Riyaa.shop's range of premium skincare products.
+            Riyaa.shop&apos;s range of premium skincare products.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
