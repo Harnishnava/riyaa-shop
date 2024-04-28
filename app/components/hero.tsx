@@ -60,10 +60,7 @@ const Hero = () => {
                   damping: 17,
                 }}
               >
-                <Link
-                  href="https://www.instagram.com/hesh.media/"
-                  className="mr-4 hover:underline md:mr-6 "
-                >
+                <Link href="/" className="mr-4 hover:underline md:mr-6 ">
                   <div className="rounded-full border item-center border-gray-500 p-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +96,7 @@ const Hero = () => {
                 }}
               >
                 <Link
-                  href="https://watsap.my/+60179913662"
+                  href={"https://www.wasap.my/60143208300"}
                   className="mr-4 hover:underline md:mr-6 "
                 >
                   <div className="rounded-full border item-center border-gray-500 p-2">
@@ -140,7 +137,7 @@ const Hero = () => {
                 }}
               >
                 <Link
-                  href="admin@heshmedia.co"
+                  href="mailto:admin@riyaa.shop"
                   className="mr-4 hover:underline md:mr-6"
                 >
                   <div className="rounded-full border item-center border-gray-500 p-2">
