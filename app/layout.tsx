@@ -3,8 +3,7 @@ import type { Metadata } from "next";
 import Nav from "@/app/components/nav";
 import "./globals.css";
 import Image from "next/image";
-import Hero from "@/public/backround (r).jpg";
-
+import Footer from "./components/footer";
 const inter = Sora({
   subsets: ["latin"],
   weight: "600",
@@ -27,6 +26,7 @@ export default function RootLayout({
         <div className="bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-indigo-300 via-indigo-200 to-pink-300">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
