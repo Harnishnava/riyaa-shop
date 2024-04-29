@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import HeroImage from "@/public/hero 2.png";
+import HeroImage from "@/public/riyaa sis photo.png";
 import Button from "@/app/components/ui/button";
 import { motion } from "framer-motion";
 import Link from "next/link";

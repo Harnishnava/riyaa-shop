@@ -38,7 +38,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="mt-6">
-            <p className="text-gray-700 font-semibold">Contact Us</p>
+            <p className="text-gray-700 text-xl font-thin">Contact Us</p>
             <div className="flex flex-col gap-5 mt-3 sm:block">
               <ul>
                 <li>
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5 py-10 border-t md:text-center">
+        <div className="mt-5 py-10 border-t text-xs md:text-center">
           <p>
             © 2024 Riyaa.shop . All rights reserved.{" "}
             <Link href={"https://www.heshmedia.co/"}>

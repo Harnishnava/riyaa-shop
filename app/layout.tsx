@@ -1,10 +1,10 @@
-import { Sora } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import type { Metadata } from "next";
 import Nav from "@/app/components/nav";
 import "./globals.css";
 import Image from "next/image";
 import Footer from "./components/footer";
-const inter = Sora({
+const inter = Playfair_Display({
   subsets: ["latin"],
   weight: "600",
 });
