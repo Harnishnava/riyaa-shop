@@ -37,10 +37,10 @@ const Nav = () => {
             <Image src={Logo} width={60} height={60} alt="Float UI logo" />
           </a>
         </div>
-        <div className="flex gap-x-6 mt-6 md:flex space-y-0 md:mt-0 md:mr-10">
+        <div className="flex gap-x-6 items-center py-1 mr-10 md:flex space-y-0 md:mt-0 md:mr-10">
           <a
             href="/"
-            className="md:items-center gap-x-1 p-3 text-purple-950 font-medium"
+            className="items-center gap-x-1 p-3 text-purple-950 font-medium"
           >
             Shop Now!
           </a>

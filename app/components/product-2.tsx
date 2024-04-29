@@ -51,8 +51,8 @@ const Product2 = () => {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-950">
             Discover Our New Hair Care Essentials
           </h1>
-          <div className="h-1 w-20 bg-purple-800 rounded mb-2"></div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-900">
+          <div className="h-1 w-20  bg-purple-800 rounded mb-2"></div>
+          <p className="lg:w-1/2 text-xs w-full leading-relaxed text-gray-900">
             Experience the transformative potential of our premium hair care
             essentials, crafted with care to rejuvenate and nourish your hair.
           </p>

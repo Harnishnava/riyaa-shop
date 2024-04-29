@@ -24,11 +24,14 @@ const footerNavs = [
 const Footer = () => {
   return (
     <footer className="pt-10">
-      <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-        <div className="justify-between gap-x-10 flex">
+      <div
+        className="md:max-w-screen-xl max-w-fit
+       mx-auto px-4 text-gray-600 md:px-8"
+      >
+        <div className="md:justify-between gap-x-5 md:gap-x-10 flex">
           <div className="space-y-6">
             <Image src={Logo} width={60} height={60} alt=" logo" />
-            <p className="max-w-md text-xs font-thin">
+            <p className="md:max-w-md max-w-full text-wrap text-xs font-thin">
               Images in the showcase are for illustration purposes and may not
               reflect exact product availability or appearances. Variations may
               occur due to updates and seasonal changes. For accurate details,

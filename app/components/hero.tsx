@@ -29,7 +29,7 @@ const Hero = () => {
           {/* Replace with your image */}
           <Image
             src={HeroImage}
-            className="max-w-xl"
+            className="md:max-w-xl md:w-full"
             alt="hii"
             height={1000}
             width={1000}

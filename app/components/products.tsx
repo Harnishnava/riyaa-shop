@@ -48,7 +48,7 @@ export default function Products() {
             Revitalize Your Skin with Our Premium Products
           </h1>
           <div className="h-1 w-20 bg-purple-800 rounded mb-2"></div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-900">
+          <p className="lg:w-1/2 text-xs w-full leading-relaxed text-gray-900">
             Discover the transformative power of natural ingredients with
             Riyaa.shop&apos;s range of premium skincare products.
           </p>
@@ -64,7 +64,7 @@ export default function Products() {
                   width={500}
                   alt={product.name}
                 />
-                <h3 className="text-indigo-500 text-xs tracking-tight">
+                <h3 className="text-purple-500 text-xs tracking-tight">
                   COSMETICS
                 </h3>
                 <h2 className="text-lg md:text-2xl text-gray-900 font-medium  mb-4">
